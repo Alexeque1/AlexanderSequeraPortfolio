@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EBE9E9;
+}
+
+/* HERO SECTION */
+
+#heroSection {
+    background-color: #3581B8;
+    height: 100vh;
+    max-height: 956px;
+}
+
+#heroSection_2 img {
+    max-height: 100%; /* Limita la imagen a la altura del div */
+    max-width: 100%; /* Evita que la imagen se deforme */
+    object-fit: contain; /* Ajusta la imagen dentro del div */
+}
+
+/* INFO SECTION */
+.presInfoSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#presentationSec_Info {
+    background-image: url(../IMG/presSectInfo.png);
+    max-width: 500px;
+    min-width: 330px;
+}
+
+#presentationSec_Info div {
+    max-width: 300px;
+    width: 100%;
+}
+
+#infoSection {
+    transition: background-color 2s ease;
+}
+
+/* SKILL CARDS */
+#skillCarsContainer {
+    flex-direction: column;
+}
+
+#skillsCards {
+    background-color: #FCB07E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+#skillCards div:nth-of-type(1) {
+    flex: 1;
+}
+
+#skillCards div:nth-of-type(2) {
+    flex: 2;
+}
+
+/* PROJECTS CARDS */
+#projectsContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    transition: min-width 1s ease-in, max-width 1s ease-in;
+}
+
+#projectsCards {
+    background-image: url(../IMG/projectsCardsBack.jpg);
+    max-width: 400px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+}
+
+#projectsCards:hover {
+    transform: translateY(-10px);
+}
+
+#projectsCards div:nth-of-type(3) {
+    background-color: #3F3F3F;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#projectsCards div:nth-of-type(3) div:last-of-type {
+    height: 30px;
+}
+
+#projectsCards div:nth-of-type(3) div:last-of-type img {
+    height: 100%;
+    margin: 0px 10px;
+}
+
+.orange_text {
+
+}
+
+/* TYPING EFFECT */
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  /* BURGER BUTTON */
+  .burgerButton {
+    right: 50px;
+    top: 50px;
+  }
+
+  .burgerButton div {
+    background-color: #EBE9E9;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 1;
+  }
+
+  /* SHADOW */
+  .shadow {
+    box-shadow: 0px -2px 20px -4px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 0px -2px 20px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px -2px 20px -4px rgba(0,0,0,0.58);
+  }
+
+
+  /* BORDER RADIUS */
+  .bor_radius {
+    border-radius: 10px;
+  }

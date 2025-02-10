@@ -1,0 +1,141 @@
+/* FLEX */
+.d_flex {
+    display: flex;
+}
+
+.d_flex_c {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
+
+.justify_concent_center {
+    justify-content: center;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.justify_concent_between {
+    justify-content: space-between;
+}
+
+.justify_concent_evenly {
+    justify-content: space-evenly;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+/* MODEL */
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+/* DETAILS */
+.hidden {
+    display: none;
+}
+
+/* MARGIN */
+.m_center {
+    margin: auto;
+}
+
+.mx_center {
+    margin: 0px auto;
+}
+
+.m_medium {
+    margin: 15px;
+}
+
+.mt_small {
+    margin-top: 10px;
+}
+
+.mt_medium {
+    margin-top: 20px;
+}
+
+.mt_big {
+    margin-top: 30px;
+}
+
+.mb_small {
+    margin-bottom: 5px;
+}
+
+.mb_big {
+    margin-bottom: 20px;
+}
+
+.mtb_small {
+    margin: 10px 0px;
+}
+
+.mtb_medium {
+    margin: 20px 0px;
+}
+
+.mtb_big {
+    margin: 30px 0px;
+}
+
+/* PADDING */
+.px_container {
+    padding: 0px 3em
+}
+
+.p_small {
+    padding: 20px;
+}
+
+.p_big {
+    padding: 20px;
+}
+
+.px_big {
+    padding: 0px 20px;
+}
+
+/* POSITION */
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+/* IMAGE */
+.backgroundImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* OVERFLOW */
+.overflow_h {
+    overflow: hidden;
+}
+
+/* GLOBAL PADDING */
+
+/* WIDTH */
+.width_full {
+    width: 100%;
+}

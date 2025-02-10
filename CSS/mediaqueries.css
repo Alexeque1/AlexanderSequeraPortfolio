@@ -1,0 +1,92 @@
+@media (min-width: 800px) {
+    #skillCarsContainer {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    #skillsCards {
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 940px) {
+
+    #projectsContainer {
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    #projectsCards {
+        max-width: 350px; /* Si deseas mantener un límite superior */
+        width: auto; /* Permite que min-width y max-width funcionen correctamente */
+    }
+
+    /* INFO SECTION */
+
+    #infoSection {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 0px 20px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: -1px 2px 27px -8px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 2px 27px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 2px 27px -8px rgba(0,0,0,0.75);
+    }
+  }
+
+  @media (min-width: 1260px) {
+    /* Presentation & Info Section */
+    #presInfoSection {
+        flex-direction: row;
+        display: flex;
+        max-width: 1400px;
+        margin: 50px auto;
+    }
+
+    #presSection {
+        flex: 1;
+        padding: 0px 20px;
+    }
+
+    #presSection_sticky {
+        position: sticky;
+        top: 50px;
+        background: rgba(252, 176, 126, 1);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(252, 176, 126, 0.3);
+        padding-bottom: 20px;
+        box-shadow: -1px 2px 27px -8px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 2px 27px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 2px 27px -8px rgba(0,0,0,0.75);
+    }
+    
+    #infoSection {
+        flex: 2;
+    }
+
+    #presentationSec_Info {
+        max-width: 80%;
+        min-width: 80%;
+    }
+    
+  }
+
+  @media (min-width: 1350px) {
+    #skillsCards {
+        flex: 1;
+    }
+
+    #projectsCards {
+        flex: 1;
+    }
+    
+  }
